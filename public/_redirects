@@ -1,0 +1,10 @@
+# SPA fallback for client-side routing
+/*    /index.html   200
+
+# Form handling redirects
+/contact    /    200
+/consultation    /    200
+
+# Legacy redirects
+/admin/*    /client-portal/admin/:splat    301
+/dashboard/*    /client-portal/dashboard/:splat    301
